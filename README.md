@@ -16,3 +16,12 @@ firebase serve
 #Run the build command
 bun build src/app.js --outdir ./public
 firebase deploy
+```
+
+## GitHub Actions: 
+* Just push to the main branch and it will build and publish to firebase! 
+
+## Todos: 
+[] Publish to Domain
+[] Get more picturs 
+[] setup paralax scrolling on home page
