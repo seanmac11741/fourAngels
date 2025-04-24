@@ -47,17 +47,114 @@
 }
 
 header {
-    position: sticky;
-    background: var(--color-primary);
-    top: 0;
-    z-index: 5;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1080px;
+    position: relative;
     display: flex;
+    justify-content: center;
+    text-align: center;
     align-items: center;
-    justify-content: space-between;
-    box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+    height: 100vh;
+    transform-style: preserve-3d;
+    z-index: -1;
+    margin: -5px;
+}
+
+.FloatingLogo {
+    height: 100px;
+    width: 20vw;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+}
+
+.fade-in3 {
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+}
+
+.fade-in10 {
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+.title {
+    font-size: 32px;
+    color: var(--color-primary);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* .background {
+    transform: translateZ(-10px) scale(2);
+}
+
+.foreground {
+    transform: translateZ(-5px) scale(1.5);
+} */
+
+.background,
+.foreground {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
 body {
@@ -79,6 +176,7 @@ body {
     width: 90%;
     max-width: 1080px;
     margin: 30px auto;
+    background-color: var(--color-primary);
 }
 
 .section img {

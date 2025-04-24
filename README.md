@@ -22,6 +22,9 @@ firebase deploy
 * Just push to the main branch and it will build and publish to firebase! 
 
 ## Todos: 
-[] Publish to Domain
-[] Get more picturs 
-[] setup paralax scrolling on home page
+[ ] Publish to Domain
+[x] Get more picturs 
+[x] setup paralax scrolling on home page
+[x] add pictures of board members 
+[x] Check their FB page and get all the members and whatnot
+[ ] Make the favicon image and add it
