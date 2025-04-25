@@ -28,3 +28,4 @@ firebase deploy
 [x] add pictures of board members 
 [x] Check their FB page and get all the members and whatnot
 [ ] Make the favicon image and add it
+[x] change pictures to be the same size for members
