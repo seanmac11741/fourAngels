@@ -2,15 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
 :root {
-    /* Brush colors from BHS website look good but maybe too intense
-    --color-primary: hsl(41, 81%, 56%);
-    --color-secondary: hsl(359, 48%, 17%);
-    --color-tertiary: hsl(341, 80%, 20%);
-    --color-accent: hsl(0, 0%, 95%); */
-
-    --color-primary: #4F99E3;
-    /* --color-secondary: hsl(33, 33%, 25%); current website second color */
-    --color-secondary: hsl(242, 65%, 11%);
+    --color-primary: hsl(210, 59%, 72%);
+    --color-secondary: hsl(242, 45%, 30%);
     --color-tertiary: hsl(0, 74%, 68%);
     --color-accent: hsl(0, 0%, 95%);
     --ff: "University Roman LET";
@@ -30,12 +23,6 @@
 
 
 .dark {
-    /* Brush colors from BHS website look good but maybe too intense
-    --color-primary: hsl(359, 48%, 17%);
-    --color-secondary: hsl(41, 81%, 56%);
-    --color-tertiary: hsl(33, 33%, 25%);
-    --color-accent: hsl(37, 80%, 20%);
-    */
     --color-primary: hsl(359, 48%, 17%);
     --color-secondary: hsl(39, 65%, 56%);
     --color-tertiary: hsl(351, 100%, 93%);
